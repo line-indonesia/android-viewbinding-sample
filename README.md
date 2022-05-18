@@ -89,7 +89,7 @@ $ ./duplicate.sh findviewbyid/src/main/res/layout/item_transaction_history.xml 4
 $ ./duplicate.sh viewbinding/src/main/res/layout/item_transaction_history.xml 420
 ```
 
-We use `assemble` task to represent build speed. We also use [gradle-profiler](https://github.com/gradle/gradle-profiler) to get collect information. The profiler setting is located at [performance.scenarios](performance.scenarios) file.
+We use `assemble` task to represent build speed. We also use [gradle-profiler](https://github.com/gradle/gradle-profiler) to get collect information. Use this command to execute the benchmark: `gradle-profiler --benchmark --scenario-file performance.scenarios build_view_binding`. The profiler setting is located at [performance.scenarios](performance.scenarios) file.
 
 ```
 build_view_binding {
