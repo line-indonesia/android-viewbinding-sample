@@ -1,0 +1,5 @@
+include ':common'
+include ':viewbinding'
+include ':findviewbyid'
+include ':app'
+rootProject.name = "ViewBindingResearch"

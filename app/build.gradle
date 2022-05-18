@@ -1,0 +1,49 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion androidVersion.compileSdkVersion
+    buildToolsVersion androidVersion.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.linecorp.id.research.demoapp"
+        minSdkVersion androidVersion.minSdkVersion
+        targetSdkVersion androidVersion.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    flavorDimensions "environment"
+    productFlavors {
+        findViewById {
+            dimension "environment"
+        }
+        viewBinding {
+            dimension "environment"
+        }
+    }
+}
+
+dependencies {
+    implementation libs.androidx.appcompat
+
+    findViewByIdImplementation project(':findviewbyid')
+    viewBindingImplementation project(':viewbinding')
+}

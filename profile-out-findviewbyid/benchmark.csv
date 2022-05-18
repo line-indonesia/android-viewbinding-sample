@@ -1,0 +1,20 @@
+scenario,Build for findViewById
+version,Gradle 7.3.3
+tasks,assembleFindViewByIdDebug
+value,total execution time
+warm-up build #1,12367
+warm-up build #2,4193
+warm-up build #3,3720
+warm-up build #4,3529
+warm-up build #5,3609
+warm-up build #6,3215
+measured build #1,3216
+measured build #2,3211
+measured build #3,3777
+measured build #4,3001
+measured build #5,3079
+measured build #6,2942
+measured build #7,3012
+measured build #8,2779
+measured build #9,2922
+measured build #10,4042

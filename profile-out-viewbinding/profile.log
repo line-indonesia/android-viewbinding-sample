@@ -1,0 +1,2239 @@
+
+* Started at 2022-05-18T12:16:06.627684Z
+
+* Settings
+Project dir: /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo
+Output dir: /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/profile-out-6
+Profiler: none
+Benchmark: true
+Versions: []
+Gradle User Home: /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+Targets: [build_view_binding]
+
+* Inspecting the build using Gradle version '7.3.3'
+
+> Task :help
+
+Welcome to Gradle 7.3.3.
+
+To run a build, run gradle <task> ...
+
+To see a list of available tasks, run gradle tasks
+
+To see more detail about a task, run gradle help --task <task>
+
+To see a list of command-line options, run gradle --help
+
+For more detail on using Gradle, see https://docs.gradle.org/7.3.3/userguide/command_line_interface.html
+
+For troubleshooting, visit https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+1 actionable task: 1 executed
+
+* Stopping daemons
+Running command /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/bin/gradle --stop --gradle-user-home /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Scenarios
+Scenario: Build for View Binding using Gradle 7.3.3
+  Gradle 7.3.3 (/Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3)
+  Run using: Tooling API
+  Run: run tasks assembleViewBindingDebug
+  Cleanup: run tasks clean
+  Gradle args: [--parallel, --rerun-tasks, --offline]
+  Build changes: []
+  Warm-ups: 6
+  Builds: 10
+
+* Running scenario Build for View Binding using Gradle 7.3.3 (scenario 1/1)
+
+* Stopping daemons
+Running command /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/bin/gradle --stop --gradle-user-home /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+No Gradle daemons are running.
+
+* Build details
+Gradle version: Gradle 7.3.3
+Java home: /usr/local/Cellar/openjdk@11/11.0.15/libexec/openjdk.jdk/Contents/Home
+OS: mac os x x86_64 11.6.5
+JVM args:
+  --add-opens
+  java.base/java.util=ALL-UNNAMED
+  --add-opens
+  java.base/java.lang=ALL-UNNAMED
+  --add-opens
+  java.base/java.lang.invoke=ALL-UNNAMED
+  --add-opens
+  java.base/java.util=ALL-UNNAMED
+  --add-opens
+  java.prefs/java.util.prefs=ALL-UNNAMED
+  --add-opens
+  java.prefs/java.util.prefs=ALL-UNNAMED
+  --add-opens
+  java.base/java.nio.charset=ALL-UNNAMED
+  --add-opens
+  java.base/java.net=ALL-UNNAMED
+  --add-opens
+  java.base/java.util.concurrent.atomic=ALL-UNNAMED
+  -Xmx2048m
+  -Dfile.encoding=UTF-8
+  -Duser.country=ID
+  -Duser.language=en
+  -Duser.variant
+  -Dfile.encoding=UTF-8
+  -Dorg.gradle.profiler.scenario=build_view_binding
+Gradle args:
+  --gradle-user-home
+  /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+  --parallel
+  --rerun-tasks
+  --offline
+  -I
+  /private/var/folders/qf/0mwg9y3d3s76psksr4hd90xc0000gn/T/gradleProfiler11503496105980892419.gradle
+
+* Running cleanup for warm-up build #1
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running warm-up build #1
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:generateDebugResValues
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :viewbinding:generateDebugResValues
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :common:generateDebugResources
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :app:mergeViewBindingDebugShaders
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :viewbinding:processDebugManifest
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :common:extractDeepLinksDebug
+> Task :common:processDebugManifest
+> Task :common:compileDebugLibraryResources
+> Task :common:generateDebugBuildConfig
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:parseDebugLocalResources
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:generateDebugResources
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :app:validateSigningViewBindingDebug
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :common:bundleLibCompileToJarDebug
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 16s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 16216 ms
+
+* Running cleanup for warm-up build #2
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 637ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running warm-up build #2
+> Task :app:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :common:generateDebugResValues
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :app:mergeViewBindingDebugShaders
+> Task :common:packageDebugResources
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:extractDeepLinksDebug
+> Task :viewbinding:processDebugManifest
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:validateSigningViewBindingDebug
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:generateDebugResources
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5978 ms
+
+* Running cleanup for warm-up build #3
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 626ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running warm-up build #3
+> Task :common:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :common:packageDebugResources
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :app:mergeViewBindingDebugShaders
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :common:javaPreCompileDebug
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:generateDebugResources
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :app:validateSigningViewBindingDebug
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5183 ms
+
+* Running cleanup for warm-up build #4
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 619ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running warm-up build #4
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:generateDebugResValues
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :app:mergeViewBindingDebugShaders
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:generateDebugResources
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :common:javaPreCompileDebug
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:validateSigningViewBindingDebug
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 4s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5016 ms
+
+* Running cleanup for warm-up build #5
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 653ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running warm-up build #5
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeViewBindingDebugShaders
+> Task :viewbinding:processDebugManifest
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :common:mergeDebugShaders
+> Task :viewbinding:generateDebugResources
+> Task :app:validateSigningViewBindingDebug
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5887 ms
+
+* Running cleanup for warm-up build #6
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 840ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running warm-up build #6
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :viewbinding:generateDebugResValues
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :common:generateDebugResources
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :app:mergeViewBindingDebugShaders
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :viewbinding:generateDebugResources
+> Task :common:generateDebugBuildConfig
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :common:javaPreCompileDebug
+> Task :app:validateSigningViewBindingDebug
+> Task :common:parseDebugLocalResources
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 9s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 9662 ms
+
+* Using args for instrumented builds:
+
+* Running cleanup for measured build #1
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 707ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #1
+> Task :common:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :common:generateDebugResources
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :app:mergeViewBindingDebugShaders
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :viewbinding:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :common:javaPreCompileDebug
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :common:mergeDebugShaders
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:generateDebugResources
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :app:validateSigningViewBindingDebug
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5529 ms
+
+* Running cleanup for measured build #2
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 807ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #2
+> Task :app:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeViewBindingDebugShaders
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:extractDeepLinksDebug
+> Task :viewbinding:processDebugManifest
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :viewbinding:generateDebugResources
+> Task :app:validateSigningViewBindingDebug
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5919 ms
+
+* Running cleanup for measured build #3
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 967ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #3
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :viewbinding:writeDebugAarMetadata
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:generateDebugResValues
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :app:mergeViewBindingDebugShaders
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :viewbinding:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :common:generateDebugBuildConfig
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :common:javaPreCompileDebug
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:generateDebugResources
+> Task :app:validateSigningViewBindingDebug
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 6505 ms
+
+* Running cleanup for measured build #4
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 929ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #4
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :app:mergeViewBindingDebugShaders
+> Task :common:packageDebugResources
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :viewbinding:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :common:javaPreCompileDebug
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:validateSigningViewBindingDebug
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:generateDebugResources
+> Task :common:packageDebugAssets
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 6207 ms
+
+* Running cleanup for measured build #5
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 874ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #5
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :app:mergeViewBindingDebugShaders
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:packageDebugResources
+> Task :viewbinding:processDebugManifest
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :common:javaPreCompileDebug
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugShaders
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:generateDebugResources
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningViewBindingDebug
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 6801 ms
+
+* Running cleanup for measured build #6
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 921ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #6
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :viewbinding:generateDebugResValues
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeViewBindingDebugShaders
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:extractDeepLinksDebug
+> Task :viewbinding:processDebugManifest
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :app:validateSigningViewBindingDebug
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:generateDebugResources
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :common:javaPreCompileDebug
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 6434 ms
+
+* Running cleanup for measured build #7
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 907ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #7
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeViewBindingDebugShaders
+> Task :viewbinding:processDebugManifest
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :common:generateDebugBuildConfig
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :viewbinding:generateDebugResources
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :app:validateSigningViewBindingDebug
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :common:javaPreCompileDebug
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5677 ms
+
+* Running cleanup for measured build #8
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 879ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #8
+> Task :common:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :viewbinding:generateDebugResValues
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:extractDeepLinksDebug
+> Task :app:mergeViewBindingDebugShaders
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :viewbinding:processDebugManifest
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :app:validateSigningViewBindingDebug
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:generateDebugResources
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :common:javaPreCompileDebug
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 6515 ms
+
+* Running cleanup for measured build #9
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 835ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #9
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :viewbinding:generateDebugResValues
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeViewBindingDebugShaders
+> Task :common:extractDeepLinksDebug
+> Task :viewbinding:processDebugManifest
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:generateDebugResources
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :app:validateSigningViewBindingDebug
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5498 ms
+
+* Running cleanup for measured build #10
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 873ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83905
+
+* Running measured build #10
+> Task :app:preBuild UP-TO-DATE
+> Task :viewbinding:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preViewBindingDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeViewBindingDebugNativeDebugMetadata NO-SOURCE
+> Task :viewbinding:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :viewbinding:compileDebugAidl NO-SOURCE
+> Task :viewbinding:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :viewbinding:writeDebugAarMetadata
+> Task :viewbinding:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateViewBindingDebugBuildConfig
+> Task :app:compileViewBindingDebugAidl NO-SOURCE
+> Task :app:compileViewBindingDebugRenderscript NO-SOURCE
+> Task :viewbinding:extractDeepLinksDebug
+> Task :app:generateViewBindingDebugResValues
+> Task :app:generateViewBindingDebugResources
+> Task :app:createViewBindingDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksViewBindingDebug
+> Task :app:javaPreCompileViewBindingDebug
+> Task :common:packageDebugResources
+> Task :app:mergeViewBindingDebugShaders
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :viewbinding:processDebugManifest
+> Task :app:compileViewBindingDebugShaders NO-SOURCE
+> Task :app:generateViewBindingDebugAssets UP-TO-DATE
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :common:javaPreCompileDebug
+> Task :app:desugarViewBindingDebugFileDependencies
+> Task :app:checkViewBindingDebugAarMetadata
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :viewbinding:compileDebugRenderscript NO-SOURCE
+> Task :viewbinding:generateDebugResources
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:processViewBindingDebugJavaRes NO-SOURCE
+> Task :viewbinding:dataBindingMergeDependencyArtifactsDebug
+> Task :app:checkViewBindingDebugDuplicateClasses
+> Task :app:mergeViewBindingDebugJniLibFolders
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningViewBindingDebug
+> Task :app:writeViewBindingDebugAppMetadata
+> Task :app:writeViewBindingDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :viewbinding:packageDebugResources
+> Task :viewbinding:dataBindingMergeGenClassesDebug
+> Task :viewbinding:compileDebugLibraryResources
+> Task :viewbinding:parseDebugLocalResources
+> Task :viewbinding:dataBindingGenBaseClassesDebug
+> Task :viewbinding:generateDebugBuildConfig
+> Task :viewbinding:javaPreCompileDebug
+> Task :viewbinding:mergeDebugShaders
+> Task :viewbinding:compileDebugShaders NO-SOURCE
+> Task :viewbinding:generateDebugAssets UP-TO-DATE
+> Task :viewbinding:packageDebugAssets
+> Task :viewbinding:processDebugJavaRes NO-SOURCE
+> Task :viewbinding:mergeDebugJniLibFolders
+> Task :viewbinding:mergeDebugNativeLibs NO-SOURCE
+> Task :viewbinding:copyDebugJniLibsProjectOnly
+> Task :viewbinding:generateDebugRFile
+> Task :app:processViewBindingDebugMainManifest
+> Task :app:processViewBindingDebugManifest
+> Task :app:mergeViewBindingDebugAssets
+> Task :app:compressViewBindingDebugAssets
+> Task :app:mergeViewBindingDebugNativeLibs NO-SOURCE
+> Task :app:stripViewBindingDebugDebugSymbols NO-SOURCE
+> Task :app:processViewBindingDebugManifestForPackage
+> Task :app:mergeViewBindingDebugResources
+> Task :app:mapViewBindingDebugSourceSetPaths
+> Task :app:mergeExtDexViewBindingDebug
+> Task :app:processViewBindingDebugResources
+> Task :viewbinding:compileDebugKotlin
+> Task :viewbinding:compileDebugJavaWithJavac
+> Task :viewbinding:bundleLibResDebug
+> Task :viewbinding:bundleLibCompileToJarDebug
+> Task :viewbinding:bundleLibRuntimeToDirDebug
+> Task :app:compileViewBindingDebugKotlin
+> Task :app:compileViewBindingDebugJavaWithJavac
+> Task :app:dexBuilderViewBindingDebug
+> Task :app:mergeProjectDexViewBindingDebug
+> Task :app:mergeLibDexViewBindingDebug
+> Task :app:mergeViewBindingDebugJavaResource
+> Task :app:packageViewBindingDebug
+> Task :app:createViewBindingDebugApkListingFileRedirect
+> Task :app:assembleViewBindingDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+71 actionable tasks: 71 executed
+Used daemon with pid 83905
+Execution time 5617 ms
+
+* Stopping daemons
+Running command /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/bin/gradle --stop --gradle-user-home /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Results written to /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/profile-out-6
+  /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/profile-out-6/benchmark.csv
+  /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/profile-out-6/benchmark.html
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <color name="app_background_white_color">#ffffff</color>
+    <color name="app_background_black_color">#000000</color>
+    <color name="app_background_blue_color">#2e2e9e</color>
+    <color name="app_background_blue_454_color">#4545d1</color>
+    <color name="app_background_grey_color">#40d9dbdc</color>
+    <color name="app_background_cyan_blue_color">#eff5f9</color>
+
+    <color name="app_text_black_color">#000000</color>
+    <color name="app_text_cyan_color">#26d1d1</color>
+    <color name="app_text_new_cyan_color">#4de0c7</color>
+    <color name="app_text_red_color">#ff334b</color>
+    <color name="app_text_green_color">#03bf6d</color>
+    <color name="app_text_grey_color">#949494</color>
+    <color name="app_text_grey_da_color">#dadada</color>
+    <color name="app_text_dark_grey_color">#616161</color>
+    <color name="app_text_blue_color">#2e2e9e</color>
+    <color name="app_text_white_color">#ffffff</color>
+    <color name="app_text_dark_blue_color">#202a43</color>
+
+    <color name="app_text_grey_color_707">#707991</color>
+    <color name="app_text_grey_color_ea">#eaeaea</color>
+    <color name="app_text_grey_color_c8">#c8cfdc</color>
+    <color name="app_text_grey_color_3f">#3f3f3f</color>
+    <color name="app_text_blue_color_454">#4545d1</color>
+    <color name="app_text_black_color_041">#041b24</color>
+    <color name="app_text_black_color_11">#111111</color>
+
+    <!-- Button -->
+    <color name="button_general_rounded_normal_color">#2e2e9e</color>
+    <color name="button_general_rounded_pressed_color">#030368</color>
+    <color name="button_general_rounded_disabled_color">#98a0b3</color>
+    <color name="button_secondary_rounded_normal_color">#6f7476</color>
+    <color name="button_secondary_rounded_pressed_color">#4f5456</color>
+    <color name="button_turquoise_rounded_normal_color">#26d1d1</color>
+    <color name="button_turquoise_rounded_pressed_color">#15adad</color>
+    <color name="button_black_rounded_normal_color">#121212</color>
+
+    <!-- Edit Text -->
+    <color name="edittext_general_stroke_color">#2e2e9e</color>
+
+    <!-- Form Edit Text -->
+    <color name="edittext_unfocused_stroke_color">#dfdfdf</color>
+    <color name="edittext_focused_stroke_color">#4de2c9</color>
+    <color name="edittext_error_stroke_color">#ff334b</color>
+    <color name="edittext_filled_background_color">#ffffff</color>
+    <color name="edittext_empty_background_color">#F6F6F6</color>
+    <color name="edittext_selected_background_color">#4de2c9</color>
+    <color name="edittext_text_color">#000000</color>
+    <color name="edittext_hint_color">#b7b7b7</color>
+
+    <!-- Navigation Bar -->
+    <color name="navigationbar_background_white_color">#ffffff</color>
+    <color name="navigationbar_background_black_color">#000000</color>
+    <color name="navigationbar_background_blue_color">#2e2e9e</color>
+    <color name="navigationbar_black_tint_color">#000000</color>
+    <color name="navigationbar_white_tint_color">#ffffff</color>
+    <color name="navigationbutton_badge_background_color">#ff334b</color>
+
+    <color name="splash_background">#2e2e9e</color>
+    <color name="btn_teal">#26d1d1</color>
+
+    <!-- Tabulation Button -->
+    <color name="tabulation_normal_color">#21217a</color>
+    <color name="tabulation_selected_color">#3939d0</color>
+    <color name="tabulation_normal_text_color">#c8cfdc</color>
+    <color name="tabulation_selected_text_color">#ffffff</color>
+
+    <color name="background_black_transparent">#b3000000</color>
+    <color name="background_grey">#d9dbdc</color>
+
+</resources>

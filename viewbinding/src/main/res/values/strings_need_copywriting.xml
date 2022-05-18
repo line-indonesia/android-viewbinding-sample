@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transaction_history_detail">#%1$d - %2$s</string>
+    <string name="transaction_history_amount">Rp %1$s</string>
+</resources>

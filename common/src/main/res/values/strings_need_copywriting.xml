@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enum_phase_status_in_review">In Review</string>
+    <string name="enum_phase_status_rejected">Rejected</string>
+    <string name="enum_phase_status_approved">Approved</string>
+</resources>

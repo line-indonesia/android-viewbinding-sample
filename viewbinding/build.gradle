@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion androidVersion.compileSdkVersion
+    buildToolsVersion androidVersion.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion androidVersion.minSdkVersion
+        targetSdkVersion androidVersion.targetSdkVersion
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation project(':common')
+
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.constraintLayout
+    implementation libs.androidx.recyclerview
+    implementation libs.androidx.viewPager
+
+    implementation libs.koin.scope
+
+    implementation libs.retrofit2.gson
+    implementation libs.retrofit2.rxJavaAdapter
+}

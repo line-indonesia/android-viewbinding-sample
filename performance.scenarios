@@ -1,0 +1,15 @@
+build_view_binding {
+    title = "Build for View Binding"
+    versions = ["7.3.3"]
+    tasks = ["assembleViewBindingDebug"]
+    gradle-args = ["--parallel", "--rerun-tasks", "--offline"]
+    cleanup-tasks = ["clean"]
+}
+
+build_findviewbyid {
+    title = "Build for findViewById"
+    versions = ["7.3.3"]
+    tasks = ["assembleFindViewByIdDebug"]
+    gradle-args = ["--parallel", "--rerun-tasks", "--offline"]
+    cleanup-tasks = ["clean"]
+}

@@ -1,0 +1,2191 @@
+
+* Started at 2022-05-18T12:13:58.753797Z
+
+* Settings
+Project dir: /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo
+Output dir: /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/profile-out-5
+Profiler: none
+Benchmark: true
+Versions: []
+Gradle User Home: /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+Targets: [build_findviewbyid]
+
+* Inspecting the build using Gradle version '7.3.3'
+
+> Task :help
+
+Welcome to Gradle 7.3.3.
+
+To run a build, run gradle <task> ...
+
+To see a list of available tasks, run gradle tasks
+
+To see more detail about a task, run gradle help --task <task>
+
+To see a list of command-line options, run gradle --help
+
+For more detail on using Gradle, see https://docs.gradle.org/7.3.3/userguide/command_line_interface.html
+
+For troubleshooting, visit https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+1 actionable task: 1 executed
+
+* Stopping daemons
+Running command /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/bin/gradle --stop --gradle-user-home /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Scenarios
+Scenario: Build for findViewById using Gradle 7.3.3
+  Gradle 7.3.3 (/Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3)
+  Run using: Tooling API
+  Run: run tasks assembleFindViewByIdDebug
+  Cleanup: run tasks clean
+  Gradle args: [--parallel, --rerun-tasks, --offline]
+  Build changes: []
+  Warm-ups: 6
+  Builds: 10
+
+* Running scenario Build for findViewById using Gradle 7.3.3 (scenario 1/1)
+
+* Stopping daemons
+Running command /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/bin/gradle --stop --gradle-user-home /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+No Gradle daemons are running.
+
+* Build details
+Gradle version: Gradle 7.3.3
+Java home: /usr/local/Cellar/openjdk@11/11.0.15/libexec/openjdk.jdk/Contents/Home
+OS: mac os x x86_64 11.6.5
+JVM args:
+  --add-opens
+  java.base/java.util=ALL-UNNAMED
+  --add-opens
+  java.base/java.lang=ALL-UNNAMED
+  --add-opens
+  java.base/java.lang.invoke=ALL-UNNAMED
+  --add-opens
+  java.base/java.util=ALL-UNNAMED
+  --add-opens
+  java.prefs/java.util.prefs=ALL-UNNAMED
+  --add-opens
+  java.prefs/java.util.prefs=ALL-UNNAMED
+  --add-opens
+  java.base/java.nio.charset=ALL-UNNAMED
+  --add-opens
+  java.base/java.net=ALL-UNNAMED
+  --add-opens
+  java.base/java.util.concurrent.atomic=ALL-UNNAMED
+  -Xmx2048m
+  -Dfile.encoding=UTF-8
+  -Duser.country=ID
+  -Duser.language=en
+  -Duser.variant
+  -Dfile.encoding=UTF-8
+  -Dorg.gradle.profiler.scenario=build_findviewbyid
+Gradle args:
+  --gradle-user-home
+  /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+  --parallel
+  --rerun-tasks
+  --offline
+  -I
+  /private/var/folders/qf/0mwg9y3d3s76psksr4hd90xc0000gn/T/gradleProfiler15601452780769698046.gradle
+
+* Running cleanup for warm-up build #1
+> Task :clean
+> Task :findviewbyid:clean UP-TO-DATE
+> Task :common:clean
+> Task :app:clean
+> Task :viewbinding:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running warm-up build #1
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :findviewbyid:generateDebugResValues
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:generateDebugResources
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :findviewbyid:javaPreCompileDebug
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:processDebugManifest
+> Task :common:processDebugManifest
+> Task :common:compileDebugLibraryResources
+> Task :common:generateDebugBuildConfig
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:parseDebugLocalResources
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :common:generateDebugRFile
+> Task :findviewbyid:generateDebugRFile
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningFindViewByIdDebug
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 12s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 12367 ms
+
+* Running cleanup for warm-up build #2
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 543ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running warm-up build #2
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:writeDebugAarMetadata
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugResValues
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :findviewbyid:javaPreCompileDebug
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:processDebugManifest
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:validateSigningFindViewByIdDebug
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 4s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 4193 ms
+
+* Running cleanup for warm-up build #3
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 433ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running warm-up build #3
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :findviewbyid:javaPreCompileDebug
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :common:packageDebugResources
+> Task :findviewbyid:processDebugManifest
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:mergeDebugShaders
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :common:mergeDebugJniLibFolders
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningFindViewByIdDebug
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3720 ms
+
+* Running cleanup for warm-up build #4
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 411ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running warm-up build #4
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:javaPreCompileDebug
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :findviewbyid:generateDebugResources
+> Task :findviewbyid:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :common:packageDebugAssets
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :common:mergeDebugJniLibFolders
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningFindViewByIdDebug
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :app:processFindViewByIdDebugManifest
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3529 ms
+
+* Running cleanup for warm-up build #5
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 405ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running warm-up build #5
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:generateDebugResources
+> Task :findviewbyid:processDebugManifest
+> Task :findviewbyid:javaPreCompileDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:validateSigningFindViewByIdDebug
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3609 ms
+
+* Running cleanup for warm-up build #6
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 398ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running warm-up build #6
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :common:generateDebugResources
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :findviewbyid:javaPreCompileDebug
+> Task :common:packageDebugResources
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:processDebugManifest
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:mergeDebugShaders
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:validateSigningFindViewByIdDebug
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3215 ms
+
+* Using args for instrumented builds:
+
+* Running cleanup for measured build #1
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 386ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #1
+> Task :common:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :common:packageDebugResources
+> Task :findviewbyid:javaPreCompileDebug
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:validateSigningFindViewByIdDebug
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3216 ms
+
+* Running cleanup for measured build #2
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 454ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #2
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :findviewbyid:generateDebugResValues
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :common:packageDebugResources
+> Task :findviewbyid:javaPreCompileDebug
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:generateDebugBuildConfig
+> Task :common:parseDebugLocalResources
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningFindViewByIdDebug
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibCompileToJarDebug
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3211 ms
+
+* Running cleanup for measured build #3
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 419ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #3
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :common:packageDebugResources
+> Task :findviewbyid:javaPreCompileDebug
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:processDebugManifest
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:validateSigningFindViewByIdDebug
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :common:compileDebugKotlin
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3777 ms
+
+* Running cleanup for measured build #4
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 466ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #4
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :findviewbyid:generateDebugResValues
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :findviewbyid:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :findviewbyid:javaPreCompileDebug
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:validateSigningFindViewByIdDebug
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3001 ms
+
+* Running cleanup for measured build #5
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 399ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #5
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :common:packageDebugResources
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:javaPreCompileDebug
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:validateSigningFindViewByIdDebug
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3079 ms
+
+* Running cleanup for measured build #6
+> Task :clean
+> Task :viewbinding:clean UP-TO-DATE
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 458ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #6
+> Task :app:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :common:packageDebugResources
+> Task :findviewbyid:javaPreCompileDebug
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:processDebugManifest
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :common:javaPreCompileDebug
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:validateSigningFindViewByIdDebug
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 2942 ms
+
+* Running cleanup for measured build #7
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 381ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #7
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :findviewbyid:generateDebugResValues
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:javaPreCompileDebug
+> Task :findviewbyid:generateDebugResources
+> Task :findviewbyid:processDebugManifest
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:validateSigningFindViewByIdDebug
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :common:compileDebugJavaWithJavac
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :app:processFindViewByIdDebugResources
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 3012 ms
+
+* Running cleanup for measured build #8
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 396ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #8
+> Task :app:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :findviewbyid:generateDebugResValues
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :findviewbyid:processDebugManifest
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :findviewbyid:javaPreCompileDebug
+> Task :common:extractDeepLinksDebug
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:validateSigningFindViewByIdDebug
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :common:javaPreCompileDebug
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 2779 ms
+
+* Running cleanup for measured build #9
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 370ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #9
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:javaPreCompileDebug
+> Task :common:packageDebugResources
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:processDebugManifest
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :common:extractDeepLinksDebug
+> Task :findviewbyid:mergeDebugShaders
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:validateSigningFindViewByIdDebug
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:mergeDebugJniLibFolders
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:processFindViewByIdDebugResources
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 2922 ms
+
+* Running cleanup for measured build #10
+> Task :viewbinding:clean UP-TO-DATE
+> Task :clean
+> Task :common:clean
+> Task :findviewbyid:clean
+> Task :app:clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 411ms
+5 actionable tasks: 4 executed, 1 up-to-date
+Used daemon with pid 83324
+
+* Running measured build #10
+> Task :app:preBuild UP-TO-DATE
+> Task :common:preBuild UP-TO-DATE
+> Task :app:preFindViewByIdDebugBuild UP-TO-DATE
+> Task :common:preDebugBuild UP-TO-DATE
+> Task :app:mergeFindViewByIdDebugNativeDebugMetadata NO-SOURCE
+> Task :findviewbyid:preBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:preDebugBuild UP-TO-DATE
+> Task :findviewbyid:compileDebugAidl NO-SOURCE
+> Task :findviewbyid:packageDebugRenderscript NO-SOURCE
+> Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:writeDebugAarMetadata
+> Task :findviewbyid:writeDebugAarMetadata
+> Task :common:generateDebugResValues
+> Task :findviewbyid:generateDebugResValues
+> Task :common:generateDebugResources
+> Task :app:generateFindViewByIdDebugBuildConfig
+> Task :app:compileFindViewByIdDebugAidl NO-SOURCE
+> Task :findviewbyid:extractDeepLinksDebug
+> Task :app:compileFindViewByIdDebugRenderscript NO-SOURCE
+> Task :app:generateFindViewByIdDebugResValues
+> Task :app:generateFindViewByIdDebugResources
+> Task :app:createFindViewByIdDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFindViewByIdDebug
+> Task :app:javaPreCompileFindViewByIdDebug
+> Task :findviewbyid:generateDebugBuildConfig
+> Task :common:packageDebugResources
+> Task :findviewbyid:processDebugManifest
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :findviewbyid:javaPreCompileDebug
+> Task :common:extractDeepLinksDebug
+> Task :app:mergeFindViewByIdDebugShaders
+> Task :findviewbyid:mergeDebugShaders
+> Task :app:compileFindViewByIdDebugShaders NO-SOURCE
+> Task :app:generateFindViewByIdDebugAssets UP-TO-DATE
+> Task :findviewbyid:compileDebugRenderscript NO-SOURCE
+> Task :findviewbyid:generateDebugResources
+> Task :common:compileDebugLibraryResources
+> Task :common:processDebugManifest
+> Task :common:parseDebugLocalResources
+> Task :common:generateDebugBuildConfig
+> Task :app:desugarFindViewByIdDebugFileDependencies
+> Task :app:processFindViewByIdDebugJavaRes NO-SOURCE
+> Task :app:mergeFindViewByIdDebugJniLibFolders
+> Task :app:checkFindViewByIdDebugDuplicateClasses
+> Task :app:validateSigningFindViewByIdDebug
+> Task :common:javaPreCompileDebug
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:processDebugJavaRes NO-SOURCE
+> Task :app:writeFindViewByIdDebugAppMetadata
+> Task :common:mergeDebugJniLibFolders
+> Task :app:writeFindViewByIdDebugSigningConfigVersions
+> Task :common:mergeDebugNativeLibs NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
+> Task :app:checkFindViewByIdDebugAarMetadata
+> Task :common:generateDebugRFile
+> Task :findviewbyid:packageDebugResources
+> Task :findviewbyid:compileDebugShaders NO-SOURCE
+> Task :findviewbyid:generateDebugAssets UP-TO-DATE
+> Task :findviewbyid:packageDebugAssets
+> Task :findviewbyid:processDebugJavaRes NO-SOURCE
+> Task :findviewbyid:mergeDebugJniLibFolders
+> Task :findviewbyid:mergeDebugNativeLibs NO-SOURCE
+> Task :findviewbyid:copyDebugJniLibsProjectOnly
+> Task :findviewbyid:compileDebugLibraryResources
+> Task :findviewbyid:parseDebugLocalResources
+> Task :findviewbyid:generateDebugRFile
+> Task :common:compileDebugKotlin
+> Task :common:compileDebugJavaWithJavac
+> Task :common:bundleLibResDebug
+> Task :common:bundleLibCompileToJarDebug
+> Task :common:bundleLibRuntimeToDirDebug
+> Task :app:processFindViewByIdDebugMainManifest
+> Task :app:processFindViewByIdDebugManifest
+> Task :app:mergeFindViewByIdDebugAssets
+> Task :app:compressFindViewByIdDebugAssets
+> Task :app:mergeFindViewByIdDebugNativeLibs NO-SOURCE
+> Task :app:stripFindViewByIdDebugDebugSymbols NO-SOURCE
+> Task :app:processFindViewByIdDebugManifestForPackage
+> Task :app:mergeFindViewByIdDebugResources
+> Task :app:mapFindViewByIdDebugSourceSetPaths
+> Task :app:mergeExtDexFindViewByIdDebug
+> Task :app:processFindViewByIdDebugResources
+> Task :findviewbyid:compileDebugKotlin
+> Task :findviewbyid:compileDebugJavaWithJavac
+> Task :findviewbyid:bundleLibResDebug
+> Task :findviewbyid:bundleLibCompileToJarDebug
+> Task :findviewbyid:bundleLibRuntimeToDirDebug
+> Task :app:compileFindViewByIdDebugKotlin
+> Task :app:compileFindViewByIdDebugJavaWithJavac
+> Task :app:mergeLibDexFindViewByIdDebug
+> Task :app:dexBuilderFindViewByIdDebug
+> Task :app:mergeProjectDexFindViewByIdDebug
+> Task :app:mergeFindViewByIdDebugJavaResource
+> Task :app:packageFindViewByIdDebug
+> Task :app:createFindViewByIdDebugApkListingFileRedirect
+> Task :app:assembleFindViewByIdDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 4s
+68 actionable tasks: 68 executed
+Used daemon with pid 83324
+Execution time 4042 ms
+
+* Stopping daemons
+Running command /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home/wrapper/dists/gradle-7.3.3-bin/6a41zxkdtcxs8rphpq6y0069z/gradle-7.3.3/bin/gradle --stop --gradle-user-home /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/gradle-user-home
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Results written to /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/profile-out-5
+  /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/profile-out-5/benchmark.csv
+  /Users/line/bicycle/android-engineer/1-projects/open source LINE ID repo/android-viewbinding-demo/profile-out-5/benchmark.html
+

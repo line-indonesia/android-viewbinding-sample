@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/app_padding_start"
+    android:paddingEnd="@dimen/app_padding_end"
+    android:background="@color/app_background_blue_color">
+
+    <RelativeLayout
+        android:id="@+id/layoutHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_my_transaction_rounded_white"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_transaction_history"
+            tools:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

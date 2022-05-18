@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutBar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation_height"
+    android:background="@color/navigationbar_background_white_color">
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="@dimen/navigation_height"
+        android:layout_height="@dimen/navigation_height"
+        android:padding="@dimen/navigation_button_padding"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back"
+        android:tint="@color/navigationbar_black_tint_color" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_height"
+        android:layout_marginEnd="@dimen/navigation_height"
+        android:layout_toEndOf="@+id/imageButtonBack"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/navigationbar_black_tint_color"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</RelativeLayout>

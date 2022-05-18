@@ -1,0 +1,20 @@
+scenario,Build for View Binding
+version,Gradle 7.3.3
+tasks,assembleViewBindingDebug
+value,total execution time
+warm-up build #1,16216
+warm-up build #2,5978
+warm-up build #3,5183
+warm-up build #4,5016
+warm-up build #5,5887
+warm-up build #6,9662
+measured build #1,5529
+measured build #2,5919
+measured build #3,6505
+measured build #4,6207
+measured build #5,6801
+measured build #6,6434
+measured build #7,5677
+measured build #8,6515
+measured build #9,5498
+measured build #10,5617
