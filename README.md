@@ -10,6 +10,7 @@ Table of Contents:
 2. [FindViewById](#findviewbyid)
 3. [View Binding](#view-binding)
 4. [Build Speed using 200 XML Layout](#build-speed-using-200-xml-layout)
+5. [Contributors](#contributors)
 
 # Application
 
@@ -126,5 +127,8 @@ View Binding is expectedly to be slower than `findViewById`. This is because Vie
 :app:generateViewBindingDebugAssets 
 ```
 
+# Contributors
 
+- [@ferryyuwono](https://github.com/ferryyuwono)
+- [@aldoKelvianto](https://github.com/aldoKelvianto)
 
